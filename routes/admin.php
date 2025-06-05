@@ -9,7 +9,7 @@ use App\Http\Controllers\admin\VacationChangeController;
 use App\Http\Controllers\admin\VacationController;
 use App\Http\Controllers\admin\VehicleController;
 use Illuminate\Support\Facades\Route;
-
+// HOLA
 Route::resource('/', AdminController::class)->names('admin');
 // Registrar todas las rutas del recurso BrandController
 Route::resource('brands', BrandController::class)->names('admin.brands');
